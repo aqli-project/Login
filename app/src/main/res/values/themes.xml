@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Login" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+    <style name="textView1">
+        <item name="android:textColor">#405D72</item>
+    </style>
+    <style name="editText1">
+        <item name="android:textColor">#405D72</item>
+    </style>
+    <style name="spinner1">
+        <item name="android:textColor">#405D72</item>
+    </style>
+    <style name="Theme.Theme.Login" parent="Base.Theme.Login" />
+</resources>
